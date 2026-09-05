@@ -6,7 +6,7 @@
  * shell or assets change, or installed clients will keep serving the old copy.
  */
 
-const CACHE_VERSION = "echo-v1";
+const CACHE_VERSION = "echo-v2";
 
 /* The shell is precached; character art is cached lazily on first request so
    install stays fast rather than blocking on every sprite. */
