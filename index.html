@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#070910" />
+  <title>Project Echo — Battle UI Prototype</title>
+  <link rel="stylesheet" href="./src/battle-ui.css" />
+
+  <!-- PWA: install to home screen, launch fullscreen landscape -->
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="./public/assets/pwa/icon-192.png" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+</head>
+<body>
+  <main id="battle-root" class="battle-shell" aria-label="Project Echo battle UI"></main>
+  <script type="module" src="./src/battle-ui.js"></script>
+  <script>
+    // Register the service worker so the app works offline once installed.
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", function () {
+        navigator.serviceWorker.register("./sw.js").catch(function (e) {
+          console.warn("service worker registration failed:", e);
+        });
+      });
+    }
+
+    // Installed PWAs can request landscape; ignore failures on desktop.
+    if (screen.orientation && screen.orientation.lock) {
+      screen.orientation.lock("landscape").catch(function () {});
+    }
+  </script>
+</body>
+</html>

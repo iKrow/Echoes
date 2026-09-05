@@ -1,0 +1,101 @@
+{
+  "vesper": {
+    "portrait": "/assets/characters/vesper-portrait.png",
+    "model": "/assets/characters/vesper-model.png",
+    "icons": [
+      "/assets/characters/vesper-skill-1.png",
+      "/assets/characters/vesper-skill-2.png",
+      "/assets/characters/vesper-skill-3.png",
+      "/assets/characters/vesper-skill-4.png"
+    ]
+  },
+  "aurex": {
+    "portrait": "/assets/characters/aurex-portrait.png",
+    "model": "/assets/characters/aurex-model.png",
+    "icons": [
+      "/assets/characters/aurex-skill-1.png",
+      "/assets/characters/aurex-skill-2.png",
+      "/assets/characters/aurex-skill-3.png",
+      "/assets/characters/aurex-skill-4.png"
+    ]
+  },
+  "nyra": {
+    "portrait": "/assets/characters/nyra-portrait.png",
+    "model": "/assets/characters/nyra-model.png",
+    "icons": [
+      "/assets/characters/nyra-skill-1.png",
+      "/assets/characters/nyra-skill-2.png",
+      "/assets/characters/nyra-skill-3.png",
+      "/assets/characters/nyra-skill-4.png"
+    ]
+  },
+  "kaelith": {
+    "portrait": "/assets/characters/kaelith-portrait.png",
+    "model": "/assets/characters/kaelith-model.png",
+    "icons": [
+      "/assets/characters/kaelith-skill-1.png",
+      "/assets/characters/kaelith-skill-2.png",
+      "/assets/characters/kaelith-skill-3.png",
+      "/assets/characters/kaelith-skill-4.png"
+    ]
+  },
+  "pyre": {
+    "portrait": "/assets/characters/pyre-portrait.png",
+    "model": "/assets/characters/pyre-model.png",
+    "icons": [
+      "/assets/characters/pyre-skill-1.png",
+      "/assets/characters/pyre-skill-2.png",
+      "/assets/characters/pyre-skill-3.png",
+      "/assets/characters/pyre-skill-4.png"
+    ]
+  },
+  "sesha": {
+    "portrait": "/assets/characters/sesha-portrait.png",
+    "model": "/assets/characters/sesha-model.png",
+    "icons": [
+      "/assets/characters/sesha-skill-1.png",
+      "/assets/characters/sesha-skill-2.png",
+      "/assets/characters/sesha-skill-3.png",
+      "/assets/characters/sesha-skill-4.png"
+    ]
+  },
+  "lyraen": {
+    "portrait": "/assets/characters/lyraen-portrait.png",
+    "model": "/assets/characters/lyraen-model.png",
+    "icons": [
+      "/assets/characters/lyraen-skill-1.png",
+      "/assets/characters/lyraen-skill-2.png",
+      "/assets/characters/lyraen-skill-3.png",
+      "/assets/characters/lyraen-skill-4.png"
+    ]
+  },
+  "draven": {
+    "portrait": "/assets/characters/draven-portrait.png",
+    "model": "/assets/characters/draven-model.png",
+    "icons": [
+      "/assets/characters/draven-skill-1.png",
+      "/assets/characters/draven-skill-2.png",
+      "/assets/characters/draven-skill-3.png",
+      "/assets/characters/draven-skill-4.png"
+    ]
+  },
+  "thaleia": {
+    "portrait": "/assets/characters/thaleia-portrait.png",
+    "model": "/assets/characters/thaleia-model.png",
+    "icons": [
+      "/assets/characters/thaleia-skill-1.png",
+      "/assets/characters/thaleia-skill-2.png",
+      "/assets/characters/thaleia-skill-3.png"
+    ]
+  },
+  "cairn": {
+    "portrait": "/assets/characters/cairn-portrait.png",
+    "model": "/assets/characters/cairn-model.png",
+    "icons": [
+      "/assets/characters/cairn-skill-1.png",
+      "/assets/characters/cairn-skill-2.png",
+      "/assets/characters/cairn-skill-3.png",
+      "/assets/characters/cairn-skill-4.png"
+    ]
+  }
+}
